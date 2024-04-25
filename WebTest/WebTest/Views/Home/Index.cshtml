@@ -19,7 +19,7 @@
 
 <a href="./Home/privacy.cshtml">test</a>
 
-<script>
+<script type="text/javascript">
     //var obj = { a: 20, b: 30 };
     //console.log(`a's prop is ${obj.a} and ${obj.b}`);
 
@@ -46,11 +46,10 @@
     //        }
     //    });
     //}
-    function redisTest() {
-        //let data = {
-        //    key: {jsontest : 1, jsontest2 :2}
-        //};
 
+
+    function redisTest() {
+     
         let data = {};
         data.key = $('#key').val();
         data.value = $('#val').val();
@@ -64,8 +63,8 @@
             success: function () {
                 alert('완료');
             }
-        });
-    }
+        })
+    };
 
 
 

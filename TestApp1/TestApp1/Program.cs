@@ -14,12 +14,14 @@ namespace TestApp1
         {
             Console.WriteLine("Hello World!");
             Test tt = new Test();
-            //tt.test();
+            tt.test();
 
             //tt.test2();
             //tt.test3();
 
-            tt.numCalTest();
+            //tt.numCalTest();
+
+            //tt.datetostamp();
             Console.ReadLine();
         }
     }
@@ -34,6 +36,17 @@ namespace TestApp1
 
     public class Test
     {
+        public void datetostamp()
+        {
+            DateTime d = DateTime.Now;
+            
+            Console.WriteLine($"todate : {d.ToString("yyyy-MM-dd HH:mm:ss")}");
+            Console.WriteLine($"tick: {d.Ticks}");
+            Console.WriteLine($"longtime:{d.ToLongTimeString()}");
+            Console.WriteLine($"milli:{d.Millisecond}");
+            Console.WriteLine($"milli:{(Int32)(DateTime.Now.AddDays(-7).AddHours(-9).Subtract(new DateTime(1970, 1, 1))).TotalSeconds}");
+
+        }
         public void numCalTest()
         {
             List<int> a = makeintArr(new List<int>());

@@ -159,11 +159,11 @@ namespace WebTest.Controllers
             HashSet<KeyValuePair<string, string>> hs2 = new HashSet<KeyValuePair<string, string>>();
 
             hs.Add(new KeyValuePair<string, string>("개발팀", "김영주"));
-            hs.Add(new KeyValuePair<string, string>("개발팀", "민기낭"));
-            hs.Add(new KeyValuePair<string, string>("기획팀", "신희섭"));
+            hs.Add(new KeyValuePair<string, string>("개발팀", "홍길동"));
+            hs.Add(new KeyValuePair<string, string>("기획팀", "김길동"));
             hs2.Add(new KeyValuePair<string, string>("개발팀", "김영주"));
-            hs2.Add(new KeyValuePair<string, string>("기획팀", "이준호"));
-            hs2.Add(new KeyValuePair<string, string>("운영팀", "이인주"));
+            hs2.Add(new KeyValuePair<string, string>("기획팀", "신길동"));
+            hs2.Add(new KeyValuePair<string, string>("운영팀", "고길동"));
             HashSet<KeyValuePair<string, string>> inter = new HashSet<KeyValuePair<string, string>>(hs);
             inter.IntersectWith(hs2);
 
