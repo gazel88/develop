@@ -1,0 +1,25 @@
+
+SELECT 
+    r.session_id,
+    r.status,
+    r.command,
+    r.cpu_time,
+    r.total_elapsed_time,
+    r.granted_query_memory,
+    DB_NAME(t.dbid) AS DatabaseName,
+	t.objectid,
+    t.text AS SQLText
+FROM sys.dm_exec_requests r
+CROSS APPLY sys.dm_exec_sql_text(r.sql_handle) t
+WHERE DB_NAME(t.dbid) = 'Srookpay'
+--and r.status = 'running'
+ORDER BY r.granted_query_memory DESC;
+
+
+SELECT top 100 session_id, status, command, blocking_session_id 
+FROM sys.dm_exec_requests
+
+
+SELECT blocking_session_id AS BlockingSession, session_id AS BlockedSession
+FROM sys.dm_exec_requests
+WHERE blocking_session_id <> 0;
