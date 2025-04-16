@@ -16,6 +16,8 @@ namespace WebApi2Project
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
+
+            
         }
     }
 }
