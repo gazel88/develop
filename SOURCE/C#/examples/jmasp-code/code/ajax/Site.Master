@@ -1,0 +1,16 @@
+<head>
+ <!-- omitted other css and javascript -->
+
+<script type="text/javascript" 
+  src="<%=ResolveUrl("~/Scripts/jquery.autocomplete.js") %>"></script> //<label id="add.more.plugins"/>
+<link href="<%=ResolveUrl("~/Content/jquery.autocomplete.css")%>"
+  rel="stylesheet" type="text/css" />
+  
+<script type="text/javascript" 
+  src="<%=ResolveUrl("~/Scripts/jquery-ui-1.7.1.min.js") %>"></script>
+  
+<script type="text/javascript" 
+  src="<%=ResolveUrl("~/Scripts/jquery.livequery.js") %>"></script>
+
+<asp:ContentPlaceHolder ID="Head" runat="server" /> 
+</head>
