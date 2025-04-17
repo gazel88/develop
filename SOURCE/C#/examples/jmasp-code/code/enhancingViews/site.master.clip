@@ -1,0 +1,18 @@
+<head runat="server">
+<title><asp:ContentPlaceHolder ID="TitleContent" runat="server" />
+</title>
+<meta http-equiv="Content-Type" 
+  content="text/html; charset=iso-8859-1" />
+<link href="<%=ResolveUrl("~/Content/Site.css") %>" 
+  rel="stylesheet" type="text/css" />
+<link href="../../Content/colorpicker.css" 
+  rel="Stylesheet" type="text/css" />
+
+<script type="text/javascript" 
+  src="<%=ResolveUrl("~/Scripts/jquery-1.4.1.js") %>">
+</script> 
+<script type="text/javascript" 
+  src="<%=ResolveUrl("~/Scripts/colorpicker.js") %>">
+</script>
+<asp:ContentPlaceHolder ID="Head" runat="server" /> 
+</head>
