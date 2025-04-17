@@ -73,7 +73,7 @@ namespace WebApi2Project.Controllers.Api
                 return NotFound();
 
             products.Remove(product);
-            return Ok($"Product with ID {id} deleted");
+            return Ok();
         }
     }
 }
