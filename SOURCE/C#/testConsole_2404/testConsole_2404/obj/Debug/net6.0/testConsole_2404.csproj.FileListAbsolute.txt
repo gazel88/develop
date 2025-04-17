@@ -1,0 +1,15 @@
+F:\Codes\testConsole_2404\testConsole_2404\bin\Debug\net6.0\testConsole_2404.exe
+F:\Codes\testConsole_2404\testConsole_2404\bin\Debug\net6.0\testConsole_2404.deps.json
+F:\Codes\testConsole_2404\testConsole_2404\bin\Debug\net6.0\testConsole_2404.runtimeconfig.json
+F:\Codes\testConsole_2404\testConsole_2404\bin\Debug\net6.0\testConsole_2404.dll
+F:\Codes\testConsole_2404\testConsole_2404\bin\Debug\net6.0\ref\testConsole_2404.dll
+F:\Codes\testConsole_2404\testConsole_2404\bin\Debug\net6.0\testConsole_2404.pdb
+F:\Codes\testConsole_2404\testConsole_2404\obj\Debug\net6.0\testConsole_2404.csproj.AssemblyReference.cache
+F:\Codes\testConsole_2404\testConsole_2404\obj\Debug\net6.0\testConsole_2404.GeneratedMSBuildEditorConfig.editorconfig
+F:\Codes\testConsole_2404\testConsole_2404\obj\Debug\net6.0\testConsole_2404.AssemblyInfoInputs.cache
+F:\Codes\testConsole_2404\testConsole_2404\obj\Debug\net6.0\testConsole_2404.AssemblyInfo.cs
+F:\Codes\testConsole_2404\testConsole_2404\obj\Debug\net6.0\testConsole_2404.csproj.CoreCompileInputs.cache
+F:\Codes\testConsole_2404\testConsole_2404\obj\Debug\net6.0\testConsole_2404.dll
+F:\Codes\testConsole_2404\testConsole_2404\obj\Debug\net6.0\ref\testConsole_2404.dll
+F:\Codes\testConsole_2404\testConsole_2404\obj\Debug\net6.0\testConsole_2404.pdb
+F:\Codes\testConsole_2404\testConsole_2404\obj\Debug\net6.0\testConsole_2404.genruntimeconfig.cache

@@ -1,0 +1,8 @@
+F:\Codes\prommersTest\prommersTest\bin\Debug\prommersTest.exe.config
+F:\Codes\prommersTest\prommersTest\bin\Debug\prommersTest.exe
+F:\Codes\prommersTest\prommersTest\bin\Debug\prommersTest.pdb
+F:\Codes\prommersTest\prommersTest\obj\Debug\prommersTest.csproj.AssemblyReference.cache
+F:\Codes\prommersTest\prommersTest\obj\Debug\prommersTest.csproj.SuggestedBindingRedirects.cache
+F:\Codes\prommersTest\prommersTest\obj\Debug\prommersTest.csproj.CoreCompileInputs.cache
+F:\Codes\prommersTest\prommersTest\obj\Debug\prommersTest.exe
+F:\Codes\prommersTest\prommersTest\obj\Debug\prommersTest.pdb
