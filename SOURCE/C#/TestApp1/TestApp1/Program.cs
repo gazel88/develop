@@ -13,14 +13,7 @@ namespace TestApp1
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            Test tt = new Test();
-     
-
-            //tt.validTest("https://i.postimg.cc/rsdFPYPC/ffa33b71eaa16.png");
-
-            //tt.GetPath();
-
-
+        
             //ArrayTest.Hanoisolution(20);
 
             //EnumTest.enumTest();
@@ -36,37 +29,9 @@ namespace TestApp1
 
     public class Test
     {
-        void pathtest()
-        {
-            string a = "";
-            string b = "/data/goods/jhl0111/small/icon/20241129110030060fd74f9f7-76a8-4bde-9d6b-e5d0998b7bda.gif";
-        }
-
-
-        
-        public void validTest(string test)
-        {
-            string[] allowExt = "jpg,gif,jpeg,png,bmp".Split(',');
-            bool is_ok = allowExt.Any(x => string.Equals(x, Path.GetExtension(test).ToLower().Substring(1)));
-            Console.WriteLine(is_ok);
-            //int pi = 0;
-            //int.TryParse(test, out pi);
-            //Console.WriteLine(pi);
-        }
-        public void GetPath()
-        {
-            string basepath = AppDomain.CurrentDomain.BaseDirectory;
-            
-            Console.WriteLine(basepath);
-        }
-        
-
-        
-        
-        
         public void test()
         {
-            Console.WriteLine("\r\n--- Examine a generic method.");
+            Console.WriteLine("\r\n--- generic method.");
 
             // Create a Type object representing class Example, and
             // get a MethodInfo representing the generic method.
